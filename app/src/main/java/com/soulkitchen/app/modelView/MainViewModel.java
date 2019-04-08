@@ -1,17 +1,19 @@
-package com.soulkitchen.app;
+package com.soulkitchen.app.modelView;
 
 import android.databinding.BaseObservable;
 import com.soulkitchen.app.domain.ApiClient;
+import com.soulkitchen.app.domain.DataSource;
 import com.soulkitchen.app.model.CareResponse;
 import java.text.DecimalFormat;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import rx.Subscription;
 
 /**
  * Created by S.Nur Uysal on 07.04.2019.
  */
-public class MainViewModel extends BaseObservable {
+public class MainViewModel extends BaseObservable implements BaseViewModel {
 
   private static final String FORMATTER = "##.##";
   private static final String CELCIUS = "°C";
@@ -20,8 +22,7 @@ public class MainViewModel extends BaseObservable {
   private String tempreatureLeft;
 
   public MainViewModel() {
-    callTempreatureLeft();
-    callTempreatureRight();
+    loadData();
   }
 
   private void callTempreatureLeft() {
@@ -70,4 +71,24 @@ public class MainViewModel extends BaseObservable {
     return tempreatureLeft;
   }
 
+  @Override
+  public void loadData() {
+    callTempreatureLeft();
+    callTempreatureRight();
+  }
+
+  @Override
+  public void subscribe() {
+
+  }
+
+  @Override
+  public void unsubscribe() {
+
+  }
+
+  @Override
+  public void onDestroy() {
+
+  }
 }

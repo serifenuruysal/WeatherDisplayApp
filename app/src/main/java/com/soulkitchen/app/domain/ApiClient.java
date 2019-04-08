@@ -1,4 +1,4 @@
-package com.soulkitchen.app;
+package com.soulkitchen.app.domain;
 
 import java.io.IOException;
 import okhttp3.HttpUrl;
@@ -11,7 +11,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by S.Nur Uysal on 26.11.2018.
+ * Created by S.Nur Uysal on 07.04.2019.
  */
 public class ApiClient {
 

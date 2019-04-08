@@ -1,1 +1,42 @@
-{"coord":{"lon":13.39,"lat":52.52},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":292.61,"pressure":1007,"humidity":51,"temp_min":291.48,"temp_max":294.26},"visibility":10000,"wind":{"speed":3.1,"deg":90},"clouds":{"all":0},"dt":1554654006,"sys":{"type":1,"id":1275,"message":0.0052,"country":"DE","sunrise":1554611257,"sunset":1554659361},"id":2950159,"name":"Berlin","cod":200}
+{
+  "coord": {
+    "lon": 13.39,
+    "lat": 52.52
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 292.61,
+    "pressure": 1007,
+    "humidity": 51,
+    "temp_min": 291.48,
+    "temp_max": 294.26
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.1,
+    "deg": 90
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1554654006,
+  "sys": {
+    "type": 1,
+    "id": 1275,
+    "message": 0.0052,
+    "country": "DE",
+    "sunrise": 1554611257,
+    "sunset": 1554659361
+  },
+  "id": 2950159,
+  "name": "Berlin",
+  "cod": 200
+}

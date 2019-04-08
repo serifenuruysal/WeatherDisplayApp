@@ -1,12 +1,12 @@
-package com.soulkitchen.app;
+package com.soulkitchen.app.domain;
 
-import com.soulkitchen.app.models.CareResponse;
+import com.soulkitchen.app.model.CareResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 /**
- * Created by S.Nur Uysal on 26.11.2018.
+ * Created by S.Nur Uysal on 07.04.2019.
  */
 public interface ApiService {
 
